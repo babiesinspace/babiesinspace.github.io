@@ -59,8 +59,16 @@ a {
   }
 }
 
-div.card-body {
-  background: transparent;
+#projects > .container{
+  overflow-x: scroll;
+}
+
+.card {
+  border-color: black;
+}
+
+.card-body {
+  background: black;
 }
 
 #mainNav {

@@ -41,8 +41,14 @@ a {
     text-decoration: none;
     color: #1d9b6c; }
 
-div.card-body {
-  background: transparent; }
+#projects > .container {
+  overflow-x: scroll; }
+
+.card {
+  border-color: black; }
+
+.card-body {
+  background: black; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
