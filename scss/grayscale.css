@@ -41,8 +41,14 @@ a {
     text-decoration: none;
     color: #1d9b6c; }
 
-div.card-body {
-  background: transparent; }
+#projects > .container {
+  overflow-x: scroll; }
+
+.card {
+  border-color: black; }
+
+.card-body {
+  background: black; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -98,7 +104,7 @@ div.card-body {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/babyme.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -144,7 +150,7 @@ div.card-body {
 
 .project-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/city.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
